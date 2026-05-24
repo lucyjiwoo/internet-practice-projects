@@ -2,12 +2,24 @@
   "name": "internet-practice-projects",
   "version": "1.0.0",
   "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/lucyjiwoo/internet-practice-projects#readme",
+  "bugs": {
+    "url": "https://github.com/lucyjiwoo/internet-practice-projects/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucyjiwoo/internet-practice-projects.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
+    "start": "node main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs"
+  "devDependencies": {
+    "jest": "^30.4.2"
+  }
 }
